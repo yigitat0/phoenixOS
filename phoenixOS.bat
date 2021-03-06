@@ -582,7 +582,6 @@ title phoenixOS
 goto a
 
 :admin5
-start explorer.exe
 exit
 exit
 
