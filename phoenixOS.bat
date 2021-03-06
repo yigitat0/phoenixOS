@@ -225,7 +225,7 @@ echo - Yeni 1.3 Surumunde Neler Var:
 echo - Anti Virus Eklendi
 echo - Tarayici Sistemi Eklendi
 echo - Hatalar Duzeltildi
-echo - Yeni Keyler Eklendi
+echo - Yeni 2 Tane Key Eklendi
 echo ..
 echo ____________________
 pause > nul
