@@ -30,7 +30,7 @@ cd.. >nul
 cd phoenixOSFiles
 if EXIST batcontoller.vbs (
 cd C:\windows\system32
-goto :startup
+goto :start
 )else (
 echo.
 )
