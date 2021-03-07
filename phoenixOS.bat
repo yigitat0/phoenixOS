@@ -315,7 +315,6 @@ timeout 4 >nul
 goto :a
 
 :8
-start explorer.exe
 exit
 exit
 exit
