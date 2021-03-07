@@ -229,6 +229,7 @@ echo - Yeni 2 Tane Key Eklendi
 echo ..
 echo ____________________
 pause > nul
+goto :a
 
 :5
 echo Aciliyor
