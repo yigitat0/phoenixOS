@@ -236,6 +236,7 @@ goto :a
 
 :6
 start "Microsoft-Edge.lnk" www.google.com
+goto a
 
 :sistem
 echo.
