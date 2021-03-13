@@ -368,7 +368,7 @@ echo                                  [X Yenilikler        ]                    
 echo                                  [X Sistem Onarma     ]                                                          \ :)
 echo                                  [X Yakinda ...       ]       Admin Panel                                        /
 echo                                  [X Admin Panel       ]   ____________________                                   \ :)
-echo                                  [X Tarayici          ]  [1.      CMD         ]                                  /
+echo                                  [X Sistem Ozellikleri]  [1.      CMD         ]                                  /
 echo                                  [X Tarayici          ]  [2.  Kurulumu Sil    ]                                  \ :)
 echo                                  [X Anti-Virus        ]  [3.  Normal Panel    ]                                  /
 echo                                  [X Exit              ]  [4.  Programi Kapat  ]                                  \ :)
