@@ -257,7 +257,7 @@ echo                                                    [____________________]  
 echo                                                                                                                  \ :)
 echo                                               [       Sistem Bilgileri       ]                                   / 
 echo                                               [ Ram: 64gb                    ]                                   \ :)
-echo                                               [ x64 tabanli, isletim sistemi ]                                   / 
+echo                                               [ x64 Tabanli, Isletim Sistemi ]                                   / 
 echo                                                                                                                  \ :)
 echo                                                                                                                  /
 echo                                                                                                                  \ :)
