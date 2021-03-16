@@ -38,7 +38,7 @@ cls
 echo.
 echo.
 echo Hmm Gorunuse Gore phoenixOS'u Kurmamissiniz Kurmak Icin "ENTER" Tusuna Basiniz
-pause
+pause > nul
 cls
 set /p key=Kurulum Icin "KURULUM" Yaziniz:
 C: >nul
