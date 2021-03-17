@@ -326,6 +326,7 @@ goto :a
 
 
 :2
+title phoenixOS Sistem Onarma
 cd C:\phoenixOSFiles
 cls
 goto onarim
@@ -361,6 +362,7 @@ goto :yanliskey
 )
 
 :7
+title phoenixOS Anti Virus
 cd C:\phoenixOSFiles
 cls
 goto onarim
