@@ -355,7 +355,7 @@ title phoenixOS Admin Panel
 set /p Ad=Admin Adi:
 set /p Sifre=Admin Sifresi:
 if %Ad%==admin (
-if %Sifre%==admin (
+if %Sifre%==coder (
 goto :adminn
 )else (
 goto :yanliskey
