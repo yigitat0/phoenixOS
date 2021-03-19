@@ -409,6 +409,7 @@ if %adminnumber%==2 goto :admin2
 if %adminnumber%==3 goto :admin3
 if %adminnumber%==4 goto :admin4
 if %adminnumber%==5 goto :admin5
+if %adminnumber%==6 goto :admin6
 
 :admin1
 start cmd
