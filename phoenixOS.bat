@@ -153,6 +153,7 @@ timeout 3 >nul
 cls
 
 :startup
+title phoenixOS
 cls
 cd C:\phoenixOSFiles
 if not EXIST KeyNo.txt (
@@ -162,7 +163,6 @@ set key=987-2002-4596RTX-4544TTX-1024
 set key=987-2007-4568BGF-5423OOX-1024
 )
 cd C:\windows\system32
-title phoenixOS
 cls
 echo.
 echo.
