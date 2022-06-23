@@ -399,7 +399,7 @@ goto :yanliskey
 
 :adminn
 cls
-echo                                   ____________________                                                           \
+echo                                   ____________________                                                           \ :)
 echo                                  [     phoenixOS      ]                                                          /
 echo                                  [                    ]                                                          \ :)
 echo                                  [X Yenilikler        ]                                                          /
@@ -411,22 +411,23 @@ echo                                  [X Tarayici          ]  [2 Kurulumu Sil   
 echo                                  [X Exit              ]  [3 Normal Panel      ]                                  /
 echo                                  [                    ]  [4 Programi Kapat    ]                                  \ :)
 echo                                  [     phoenixOS      ]  [5 Task Manager      ]                                  /
-echo                                  [____________________]  [6 Bilgisayari Kapat ]                                  \ :)
-echo                                                          [____________________]                                  /
+echo                                                          [6 Bilgisayari Kapat ]                                  \ :)
+echo                                  [____________________]  [7 Ram Mhz Ogrenme   ]                                  / 
+echo                                                          [____________________]                                  \ :)
+echo                                                                                                                  / 
 echo                                                                                                                  \ :)
-echo                                                                                                                  /
-echo                                   Program Calistirmak icin Basindaki Numarayi yaziniz                            \ :)
-echo                                                                                                                  /
+echo                                   Program Calistirmak icin Basindaki Numarayi yaziniz                            / 
 echo                                                                                                                  \ :)
-echo                                                                                                                  /
+echo                                                                                                                  /  
 echo                                                                                                                  \ :)
-echo                                                                                                                  /
+echo                                                                                                                  / 
 echo                                                                                                                  \ :)
-echo                                                                                                                  /____
-echo                                                                                                                  \V1.5
-echo                                                                                                                  /
-echo    __                                                                                                            \ 
-echo __/  \___________________________________________________________________________________________________________/
+echo                                                                                                                  / 
+echo                                                                                                                  \____
+echo                                                                                                                  /V1.5
+echo                                                                                                                  \
+echo    __                                                                                                            / 
+echo __/  \___________________________________________________________________________________________________________\
 echo  /phoenix\  
 echo /   OS    \______________________________________________________________________________________________________________
 set /p adminnumber=Admin Numara:
