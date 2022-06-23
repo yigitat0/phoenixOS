@@ -46,7 +46,6 @@ cd.. >nul
 cd.. >nul
 cd.. >nul
 cd.. >nul
-md phoenixOSFiles
 cd C:phoenixOSFiles
 echo KURULUM
 )else (
@@ -187,23 +186,22 @@ echo                                                    [3 H. Makinesi       ]  
 echo                                                    [4 Admin Panel       ]                                        \ :)
 echo                                                    [5 Sistem Ozellikleri]                                        /
 echo                                                    [6 Tarayici          ]                                        \ :)
-echo                                                    [7 Anti-Virus        ]                                        /
-echo                                                    [8 Exit              ]                                        \ :)
-echo                                                    [                    ]                                        /
-echo                                                    [     phoenixOS      ]                                        \ :)
-echo                                                    [____________________]                                        /
+echo                                                    [7 Exit              ]                                        / 
+echo                                                    [                    ]                                        \ :)
+echo                                                    [     phoenixOS      ]                                        / 
+echo                                                    [____________________]                                        \ :)
+echo                                                                                                                  / 
 echo                                                                                                                  \ :)
-echo                                                                                                                  /
-echo                                  Program Calistirmak icin Basindaki Numarayi yaziniz                             \ :)
-echo                                                                                                                  /
+echo                                  Program Calistirmak icin Basindaki Numarayi yaziniz                             / 
 echo                                                                                                                  \ :)
-echo                                                                                                                  /
+echo                                                                                                                  / 
 echo                                                                                                                  \ :)
-echo                                                                                                                  /____
-echo                                                                                                                  \V1.3
-echo                                                                                                                  /
-echo    __                                                                                                            \ 
-echo __/  \___________________________________________________________________________________________________________/    
+echo                                                                                                                  / 
+echo                                                                                                                  \____
+echo                                                                                                                  /V1.5
+echo                                                                                                                  \
+echo    __                                                                                                            / 
+echo __/  \___________________________________________________________________________________________________________\    
 echo  /phoenix\                                                          
 echo /  OS     \_______________________________________________________________________________________________________________
 set /p numara=Numara:
@@ -214,19 +212,45 @@ if %numara%==4 goto 4
 if %numara%==5 goto 5
 if %numara%==6 goto 6
 if %numara%==7 goto 7
-if %numara%==8 goto 8
 
 :1
+cls
+echo.
+echo                                                     ____________________                                         \
+echo                                                    [     phoenixOS      ]                                        /
+echo                                                    [                    ]                                        \ :)
+echo                                                    [X Yenilikler        ]                                        /
+echo                                                    [X Sistem Onarma     ]                                        \ :)
+echo                                                    [X H. Makinesi       ]                                        /
+echo                                                    [X Admin Panel       ]                                        \ :)
+echo                                                    [X Sistem Ozellikleri]                                        /
+echo                                                    [X Tarayici          ]                                        \ :)
+echo                                                    [X Exit              ]                                        / 
+echo                                                    [                    ]                                        \ :)
+echo                                                    [     phoenixOS      ]                                        / 
+echo                                                    [____________________]                                        \ :)
+echo                                                                                                                  / 
+echo                                                                                                                  \ :)
+echo                                  Program Calistirmak icin Basindaki Numarayi yaziniz                             / 
+echo                                                                                                                  \ :)
+echo                                                                                                                  / 
+echo                                                                                                                  \ :)
+echo                                                                                                                  / 
+echo                                                                                                                  \____
+echo                                                                                                                  /V1.5
+echo                                                                                                                  \
+echo    __                                                                                                            / 
+echo __/  \___________________________________________________________________________________________________________\    
+echo  /phoenix\                                                          
+echo /  OS     \_______________________________________________________________________________________________________________
 echo.
 echo 	Yenilikler
 echo _____________________________
 echo ..
-echo - Yeni 1.3 Surumu Geldi
-echo - Yeni 1.3 Surumunde Neler Var:
-echo - Anti Virus Eklendi
-echo - Tarayici Sistemi Eklendi
-echo - Hesap Makinesi Eklendi
-echo - Admin Panele Bilgisayar Kapatma Eklendi
+echo - Yeni 1.5 Surumu Geldi
+echo.
+echo - Yeni 1.5 Surumunde Neler Var:
+echo - Yeni Admin Panele Ram Mhz Ogrenme Eklendi 
 echo - Hatalar Duzeltildi
 echo ..
 echo _____________________________
@@ -237,6 +261,7 @@ pause > nul
 goto :a
 
 :5
+cls
 goto sistem 
 timeout 2 > nul
 goto :a 
@@ -252,43 +277,43 @@ goto :a
 :sistem
 echo.
 echo                                                     ____________________                                         \
-echo                                                    [     phoenixOS      ]                                        / 
+echo                                                    [     phoenixOS      ]                                        /
 echo                                                    [                    ]                                        \ :)
-echo                                                    [1 Yenilikler        ]                                        /
-echo                                                    [2 Sistem Onarma     ]                                        \ :)
-echo                                                    [3 H. Makinesi       ]                                        /
-echo                                                    [4 Admin Panel       ]                                        \ :)
-echo                                                    [5 Sistem Ozellikleri]                                        /
-echo                                                    [6 Tarayici          ]                                        \ :)
-echo                                                    [7 Anti-Virus        ]                                        /
-echo                                                    [8 Exit              ]                                        \ :)
-echo                                                    [                    ]                                        /
-echo                                                    [     phoenixOS      ]                                        \ :)
-echo                                                    [____________________]                                        /
-echo                                                                                                                  \ :)
-echo                                               [       Sistem Bilgileri       ]                                   / 
-echo                                               [ Ram: 64gb                    ]                                   \ :)
-echo                                               [ x64 Tabanli, Isletim Sistemi ]                                   / 
-echo                                                                                                                  \ :)
-echo                                                                                                                  /
-echo                                                                                                                  \ :)
-echo                                                                                                                  /____
-echo                                                                                                                  \V1.3
-echo                                                                                                                  /
-echo    __                                                                                                            \  
-echo __/  \___________________________________________________________________________________________________________/    
+echo                                                    [X Yenilikler        ]                                        /
+echo                                                    [X Sistem Onarma     ]                                        \ :)
+echo                                                    [X H. Makinesi       ]                                        /
+echo                                                    [X Admin Panel       ]                                        \ :)
+echo                                                    [X Sistem Ozellikleri]                                        /
+echo                                                    [X Tarayici          ]                                        \ :)
+echo                                                    [X Exit              ]                                        / 
+echo                                                    [                    ]                                        \ :)
+echo                                                    [     phoenixOS      ]                                        / 
+echo                                                    [____________________]                                        \ :)
+echo                                                                                                                  \ 
+echo                                               [       Sistem Bilgileri       ]                                   / :)
+echo                                               [ Ram: 4gb                     ]                                   \ 
+echo                                               [ x64 Tabanli, Isletim Sistemi ]                                   / :)
+echo                                               [     Lutfen 3sn Bekleyin      ]                                   \ 
+echo                                                                                                                  / :)
+echo                                                                                                                  \
+echo                                                                                                                  / :)
+echo                                                                                                                  \____
+echo                                                                                                                  /V1.5
+echo                                                                                                                  \
+echo    __                                                                                                            /  
+echo __/  \___________________________________________________________________________________________________________\    
 echo  /phoenix\                                                          
 echo /  OS     \_______________________________________________________________________________________________________________
 cd C:\windows\system32
 timeout 3 >nul
 goto :a
 
-:8
+:7
 cls
 color C
 echo.
 echo.
-echo 			Bay Bay
+echo                                                      Bay Bay                                        
 timeout 1 > nul
 exit
 exit
@@ -302,28 +327,27 @@ goto a
 :yanliskey
 echo.
 echo                                                     ____________________                                         \
-echo                                                    [     phoenixOS      ]                                        /
-echo                                                    [                    ]                                        \ :(
-echo                                                    [1 Yenilikler        ]                                        /
-echo                                                    [2 Sistem Onarma     ]                                        \ :(
-echo                                                    [3 H. Makinesi       ]                                        /
-echo                                                    [4 Admin Panel       ]                                        \ :(
-echo                                                    [5 Sistem Ozellikleri]                                        /
-echo                                                    [6 Tarayici          ]                                        \ :(
-echo                                                    [7 Anti-Virus        ]                                        /
-echo                                                    [8 Exit              ]                                        \ :(
-echo                                                    [                    ]                                        /
-echo                                                    [     phoenixOS      ]                                        \ :(
-echo                                                    [____________________]                                        /
+echo                                                    [     phoenixOS      ]                                        / :(
+echo                                                    [                    ]                                        \ 
+echo                                                    [1 Yenilikler        ]                                        / :(
+echo                                                    [2 Sistem Onarma     ]                                        \ 
+echo                                                    [3 H. Makinesi       ]                                        / :(
+echo                                                    [4 Admin Panel       ]                                        \ 
+echo                                                    [5 Sistem Ozellikleri]                                        / :(
+echo                                                    [6 Tarayici          ]                                        \ 
+echo                                                    [7 Exit              ]                                        / :(
+echo                                                    [                    ]                                        \ 
+echo                                                    [     phoenixOS      ]                                        / :(
+echo                                                    [____________________]                                        \ 
 echo                                                                                                                  \ :(
 echo                                                                                                                  /
 echo                                                                                                                  \ :(
 echo                                                                                                                  /
 echo                                                                                                                  \ :(
-echo                                                   [     Yanlis :(      ]                                         /
+echo                                                   [     Yanlis :(     ]                                          /
 echo                                                                                                                  \ :(
 echo                                                                                                                  /____
-echo                                                                                                                  \V1.3
+echo                                                                                                                  \V1.5
 echo                                                                                                                  /
 echo    __                                                                                                            \ 
 echo __/  \___________________________________________________________________________________________________________/    
@@ -363,7 +387,7 @@ title phoenixOS Admin Panel
 set /p Ad=Admin Adi:
 set /p Sifre=Admin Sifresi:
 if %Ad%==admin (
-if %Sifre%==coder (
+if %Sifre%==admin (
 goto :adminn
 )else (
 goto :yanliskey
@@ -372,11 +396,6 @@ goto :yanliskey
 goto :yanliskey
 )
 
-:7
-title phoenixOS Anti Virus
-cd C:\phoenixOSFiles
-cls
-goto :onarim
 
 :adminn
 cls
@@ -389,11 +408,11 @@ echo                                  [X H.Makinesi        ]       Admin Panel  
 echo                                  [X Admin Panel       ]   ____________________                                   \ :)
 echo                                  [X Sistem Ozellikleri]  [1      CMD          ]                                  /
 echo                                  [X Tarayici          ]  [2 Kurulumu Sil      ]                                  \ :)
-echo                                  [X Anti-Virus        ]  [3 Normal Panel      ]                                  /
-echo                                  [X Exit              ]  [4 Programi Kapat    ]                                  \ :)
-echo                                  [                    ]  [5 Task Manager      ]                                  /
-echo                                  [     phoenixOS      ]  [6 Bilgisayari Kapat ]                                  \ :)
-echo                                  [____________________]  [____________________]                                  /
+echo                                  [X Exit              ]  [3 Normal Panel      ]                                  /
+echo                                  [                    ]  [4 Programi Kapat    ]                                  \ :)
+echo                                  [     phoenixOS      ]  [5 Task Manager      ]                                  /
+echo                                  [____________________]  [6 Bilgisayari Kapat ]                                  \ :)
+echo                                                          [____________________]                                  /
 echo                                                                                                                  \ :)
 echo                                                                                                                  /
 echo                                   Program Calistirmak icin Basindaki Numarayi yaziniz                            \ :)
@@ -404,7 +423,7 @@ echo                                                                            
 echo                                                                                                                  /
 echo                                                                                                                  \ :)
 echo                                                                                                                  /____
-echo                                                                                                                  \V1.3
+echo                                                                                                                  \V1.5
 echo                                                                                                                  /
 echo    __                                                                                                            \ 
 echo __/  \___________________________________________________________________________________________________________/
@@ -417,6 +436,7 @@ if %adminnumber%==3 goto :admin3
 if %adminnumber%==4 goto :admin4
 if %adminnumber%==5 goto :admin5
 if %adminnumber%==6 goto :admin6
+if %adminnumber%==7 goto :admin7
 
 :admin1
 start cmd
@@ -452,3 +472,12 @@ goto :adminn
 echo 	Bilgisayar 2sn Sonra Kapatiliyor !!
 timeout 2 > nul 
 shutdown -s -f -t 3
+
+:admin7
+pause
+title phoenixOS Ram MHz Ogrenme
+cls
+wmic memorychip get speed
+echo.
+pause
+goto :adminn
