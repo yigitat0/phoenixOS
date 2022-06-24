@@ -475,7 +475,6 @@ timeout 2 > nul
 shutdown -s -f -t 3
 
 :admin7
-pause
 title phoenixOS Ram MHz Ogrenme
 cls
 wmic memorychip get speed
