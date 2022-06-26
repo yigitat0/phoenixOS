@@ -182,7 +182,7 @@ echo                                                    [     phoenixOS      ]  
 echo                                                    [                    ]                                        \ :)
 echo                                                    [1 Yenilikler        ]                                        /
 echo                                                    [2 Sistem Onarma     ]                                        \ :)
-echo                                                    [3 H. Makinesi       ]                                        /
+echo                                                    [3 Komut Menusu      ]                                        /
 echo                                                    [4 Admin Panel       ]                                        \ :)
 echo                                                    [5 Sistem Ozellikleri]                                        /
 echo                                                    [6 Tarayici          ]                                        \ :)
@@ -221,7 +221,7 @@ echo                                                    [     phoenixOS      ]  
 echo                                                    [                    ]                                        \ :)
 echo                                                    [X Yenilikler        ]                                        /
 echo                                                    [X Sistem Onarma     ]                                        \ :)
-echo                                                    [X H. Makinesi       ]                                        /
+echo                                                    [X Komut Menusu      ]                                        /
 echo                                                    [X Admin Panel       ]                                        \ :)
 echo                                                    [X Sistem Ozellikleri]                                        /
 echo                                                    [X Tarayici          ]                                        \ :)
@@ -250,7 +250,9 @@ echo ..
 echo - Yeni 1.5 Surumu Geldi
 echo.
 echo - Yeni 1.5 Surumunde Neler Var:
-echo - Yeni Admin Panele Ram Mhz Ogrenme Eklendi 
+echo - Yeni Komut Menusu Eklendi
+echo - Ram MHz Ogrenme Komut Menusune Tasındı 
+echo - Task Manager Komut Menusune Tasındı 
 echo - Hatalar Duzeltildi
 echo ..
 echo _____________________________
@@ -281,7 +283,7 @@ echo                                                    [     phoenixOS      ]  
 echo                                                    [                    ]                                        \ :)
 echo                                                    [X Yenilikler        ]                                        /
 echo                                                    [X Sistem Onarma     ]                                        \ :)
-echo                                                    [X H. Makinesi       ]                                        /
+echo                                                    [X Komut Menusu      ]                                        /
 echo                                                    [X Admin Panel       ]                                        \ :)
 echo                                                    [X Sistem Ozellikleri]                                        /
 echo                                                    [X Tarayici          ]                                        \ :)
@@ -320,9 +322,38 @@ exit
 exit
 
 :3
-start calc.exe
-timeout 2 > nul
-goto a
+title phoenixOS Komut Menusu
+cls
+@echo off
+cls
+echo.
+echo                                                     ____________________                                         \ :)
+echo                                                    [    Komut Menusu    ]                                        /
+echo                                                    [                    ]                                        \ :)
+echo                                                    [1 Ram Mhz Ogrenme   ]                                        /
+echo                                                    [2 Task Manager      ]                                        \ :)
+echo                                                    [3 Exit              ]                                        / 
+echo                                                    [                    ]                                        \ :)
+echo                                                    [    Komut Menusu    ]                                        / 
+echo                                                    [____________________]                                        \ :)
+echo                                                                                                                  / 
+echo                                                                                                                  \ :)
+echo                                  Program Calistirmak icin Basindaki Numarayi yaziniz                             / 
+echo                                                                                                                  \ :)
+echo                                                                                                                  / 
+echo                                                                                                                  \ :)
+echo                                                                                                                  / 
+echo                                                                                                                  \____
+echo                                                                                                                  /V1.5
+echo                                                                                                                  \
+echo    __                                                                                                            / 
+echo __/  \___________________________________________________________________________________________________________\    
+echo  /phoenix\                                                          
+echo /  OS     \_______________________________________________________________________________________________________________
+set /p numara=Numara:
+if %numara%==1 goto :km7
+if %numara%==2 goto :km5
+if %numara%==3 goto :a
 
 :yanliskey
 echo.
@@ -331,7 +362,7 @@ echo                                                    [     phoenixOS      ]  
 echo                                                    [                    ]                                        \ 
 echo                                                    [1 Yenilikler        ]                                        / :(
 echo                                                    [2 Sistem Onarma     ]                                        \ 
-echo                                                    [3 H. Makinesi       ]                                        / :(
+echo                                                    [3 Komut Menusu      ]                                        / :(
 echo                                                    [4 Admin Panel       ]                                        \ 
 echo                                                    [5 Sistem Ozellikleri]                                        / :(
 echo                                                    [6 Tarayici          ]                                        \ 
@@ -404,16 +435,16 @@ echo                                  [     phoenixOS      ]                    
 echo                                  [                    ]                                                          \ :)
 echo                                  [X Yenilikler        ]                                                          /
 echo                                  [X Sistem Onarma     ]                                                          \ :)
-echo                                  [X H.Makinesi        ]       Admin Panel                                        /
+echo                                  [X Komut Menusu      ]       Admin Panel                                        /
 echo                                  [X Admin Panel       ]   ____________________                                   \ :)
 echo                                  [X Sistem Ozellikleri]  [1      CMD          ]                                  /
 echo                                  [X Tarayici          ]  [2 Kurulumu Sil      ]                                  \ :)
 echo                                  [X Exit              ]  [3 Normal Panel      ]                                  /
 echo                                  [                    ]  [4 Programi Kapat    ]                                  \ :)
-echo                                  [     phoenixOS      ]  [5 Task Manager      ]                                  /
-echo                                                          [6 Bilgisayari Kapat ]                                  \ :)
-echo                                  [____________________]  [7 Ram Mhz Ogrenme   ]                                  / 
-echo                                                          [____________________]                                  \ :)
+echo                                  [     phoenixOS      ]  [5 Bilgisayari Kapat ]                                  /
+echo                                  [____________________]  [____________________]                                  \ :)
+echo                                                                                                                  /
+echo                                                                                                                  \ :)
 echo                                                                                                                  / 
 echo                                                                                                                  \ :)
 echo                                   Program Calistirmak icin Basindaki Numarayi yaziniz                            / 
@@ -436,8 +467,7 @@ if %adminnumber%==2 goto :admin2
 if %adminnumber%==3 goto :admin3
 if %adminnumber%==4 goto :admin4
 if %adminnumber%==5 goto :admin5
-if %adminnumber%==6 goto :admin6
-if %adminnumber%==7 goto :admin7
+
 
 :admin1
 start cmd
@@ -459,7 +489,7 @@ goto :a
 :admin4
 goto :8
 
-:admin5
+:km5
 C: >nul
 cd.. >nul
 cd.. >nul
@@ -467,17 +497,18 @@ cd.. >nul
 cd.. >nul
 cd.. >nul
 taskmgr >nul
-goto :adminn
+goto :3
 
-:admin6
+:admin5
 echo 	Bilgisayar 2sn Sonra Kapatiliyor !!
 timeout 2 > nul 
 shutdown -s -f -t 3
 
-:admin7
+:km7
 title phoenixOS Ram MHz Ogrenme
 cls
+echo MHz Hiziniz
 wmic memorychip get speed
 echo.
 pause
-goto :adminn
+goto :3
