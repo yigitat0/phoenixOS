@@ -251,8 +251,8 @@ echo - Yeni 1.5 Surumu Geldi
 echo.
 echo - Yeni 1.5 Surumunde Neler Var:
 echo - Yeni Komut Menusu Eklendi
-echo - Ram MHz Ogrenme Komut Menusune Tasındı 
-echo - Task Manager Komut Menusune Tasındı 
+echo - Ram MHz Ogrenme Komut Menusune Tasindi 
+echo - Task Manager Komut Menusune Tasindi 
 echo - Hatalar Duzeltildi
 echo ..
 echo _____________________________
