@@ -163,12 +163,21 @@ set key=987-2007-4568BGF-5423OOX-1024
 )
 cd C:\windows\system32
 cls
-echo.
-echo.
-echo.
-echo                                      HOS GELDINIZ :)
-timeout 3 >nul
+title phoenixOS
 cls
+@echo off
+cd C:\phoenixOSFiles
+cls
+echo.
+echo                                                     ____________________                                         \
+echo                                                    [     phoenixOS      ]                                        /
+echo                                                    [                    ]                                        \ :)
+echo                                                    [    ACILIYORR..     ]                                        /
+echo                                                    [     phoenixOS      ]                                        / 
+echo                                                    [____________________]                                        \ :)
+echo                                                                                                                  / 
+timeout 5 >nul
+goto a
 
 :a
 title phoenixOS
@@ -250,6 +259,7 @@ echo ..
 echo - Yeni 1.5 Surumu Geldi
 echo.
 echo - Yeni 1.5 Surumunde Neler Var:
+echo - Yeni Acilis Ekranı Eklendi
 echo - Yeni Komut Menusu Eklendi
 echo - Ram MHz Ogrenme Komut Menusune Tasindi 
 echo - Task Manager Komut Menusune Tasindi 
