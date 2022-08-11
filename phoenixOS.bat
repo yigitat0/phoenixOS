@@ -207,7 +207,7 @@ echo                                                                            
 echo                                                                                                                  \ :)
 echo                                                                                                                  / 
 echo                                                                                                                  \____
-echo                                                                                                                  /V1.5
+echo                                                                                                                  /V1.6
 echo                                                                                                                  \
 echo    __                                                                                                            / 
 echo __/  \___________________________________________________________________________________________________________\    
@@ -246,7 +246,7 @@ echo                                                                            
 echo                                                                                                                  \ :)
 echo                                                                                                                  / 
 echo                                                                                                                  \____
-echo                                                                                                                  /V1.5
+echo                                                                                                                  /V1.6
 echo                                                                                                                  \
 echo    __                                                                                                            / 
 echo __/  \___________________________________________________________________________________________________________\    
@@ -256,13 +256,10 @@ echo.
 echo 	Yenilikler
 echo _____________________________
 echo ..
-echo - Yeni 1.5 Surumu Geldi
+echo - Yeni 1.6 Surumu Geldi
 echo.
-echo - Yeni 1.5 Surumunde Neler Var:
-echo - Yeni Acilis Ekranı Eklendi
-echo - Yeni Komut Menusu Eklendi
-echo - Ram MHz Ogrenme Komut Menusune Tasindi 
-echo - Task Manager Komut Menusune Tasindi 
+echo - Yeni 1.6 Surumunde Neler Var:
+echo - Komut Menusune Hesap Makinesi Eklendi
 echo - Hatalar Duzeltildi
 echo ..
 echo _____________________________
@@ -310,7 +307,7 @@ echo                                                                            
 echo                                                                                                                  \
 echo                                                                                                                  / :)
 echo                                                                                                                  \____
-echo                                                                                                                  /V1.5
+echo                                                                                                                  /V1.6
 echo                                                                                                                  \
 echo    __                                                                                                            /  
 echo __/  \___________________________________________________________________________________________________________\    
@@ -342,28 +339,30 @@ echo                                                    [    Komut Menusu    ]  
 echo                                                    [                    ]                                        \ :)
 echo                                                    [1 Ram Mhz Ogrenme   ]                                        /
 echo                                                    [2 Task Manager      ]                                        \ :)
-echo                                                    [3 Exit              ]                                        / 
-echo                                                    [                    ]                                        \ :)
-echo                                                    [    Komut Menusu    ]                                        / 
-echo                                                    [____________________]                                        \ :)
-echo                                                                                                                  / 
-echo                                                                                                                  \ :)
-echo                                  Program Calistirmak icin Basindaki Numarayi yaziniz                             / 
+echo                                                    [3 Hesap Makinesi    ]                                        /
+echo                                                    [4 Exit              ]                                        \ :)
+echo                                                    [                    ]                                        / 
+echo                                                    [    Komut Menusu    ]                                        \ :)
+echo                                                    [____________________]                                        / 
 echo                                                                                                                  \ :)
 echo                                                                                                                  / 
+echo                                  Program Calistirmak icin Basindaki Numarayi yaziniz                             \ :)
+echo                                                                                                                  / 
 echo                                                                                                                  \ :)
 echo                                                                                                                  / 
-echo                                                                                                                  \____
-echo                                                                                                                  /V1.5
-echo                                                                                                                  \
+echo                                                                                                                  \ :)
+echo                                                                                                                  /____
+echo                                                                                                                  \V1.6
+echo                                                                                                                  /
 echo    __                                                                                                            / 
 echo __/  \___________________________________________________________________________________________________________\    
 echo  /phoenix\                                                          
 echo /  OS     \_______________________________________________________________________________________________________________
 set /p numara=Numara:
-if %numara%==1 goto :km7
-if %numara%==2 goto :km5
-if %numara%==3 goto :a
+if %numara%==1 goto :km1
+if %numara%==2 goto :km2
+if %numara%==3 goto :km3
+if %numara%==4 goto :a
 
 :yanliskey
 echo.
@@ -388,7 +387,7 @@ echo                                                                            
 echo                                                   [     Yanlis :(     ]                                          /
 echo                                                                                                                  \ :(
 echo                                                                                                                  /____
-echo                                                                                                                  \V1.5
+echo                                                                                                                  \V1.6
 echo                                                                                                                  /
 echo    __                                                                                                            \ 
 echo __/  \___________________________________________________________________________________________________________/    
@@ -465,7 +464,7 @@ echo                                                                            
 echo                                                                                                                  \ :)
 echo                                                                                                                  / 
 echo                                                                                                                  \____
-echo                                                                                                                  /V1.5
+echo                                                                                                                  /V1.6
 echo                                                                                                                  \
 echo    __                                                                                                            / 
 echo __/  \___________________________________________________________________________________________________________\
@@ -499,7 +498,7 @@ goto :a
 :admin4
 goto :8
 
-:km5
+:km2
 C: >nul
 cd.. >nul
 cd.. >nul
@@ -514,7 +513,7 @@ echo 	Bilgisayar 2sn Sonra Kapatiliyor !!
 timeout 2 > nul 
 shutdown -s -f -t 3
 
-:km7
+:km1
 title phoenixOS Ram MHz Ogrenme
 cls
 echo MHz Hiziniz
@@ -522,3 +521,22 @@ wmic memorychip get speed
 echo.
 pause
 goto :3
+
+:km3
+cls
+@echo off
+title phoenixOS Hesap Makinesi
+echo                                                      ____________________
+echo                                                     [     phoenixOS      ]                                                          
+echo                                                   [Sayilari ve Islemi Giriniz]
+echo                                                     [____________________]                                                           
+echo.
+set /p sum=Sayi+Islem[+-/*]:
+set/a ans=%sum%
+echo.
+echo                                                          Cevap:%ans%
+pause
+cls
+goto :3
+pause
+exit
